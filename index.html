@@ -1,0 +1,264 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Tischrunde — Datenschutz und Impressum</title>
+    <style>
+      :root {
+        color-scheme: light dark;
+        --bg: #f2f2f1;
+        --surface: #fffffe;
+        --ink: #1a1a19;
+        --ink-soft: #4a4a47;
+        --ink-faint: #77776f;
+        --rule: #d9d9d5;
+        --edge: #1a1a19;
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --bg: #16161a;
+          --surface: #202026;
+          --ink: #f2f2f1;
+          --ink-soft: #c3c3bd;
+          --ink-faint: #8d8d86;
+          --rule: #35353c;
+          --edge: #f2f2f1;
+        }
+      }
+
+      * { box-sizing: border-box; }
+
+      body {
+        margin: 0;
+        padding: 2.5rem 1.25rem 5rem;
+        background: var(--bg);
+        color: var(--ink);
+        font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          Helvetica, Arial, sans-serif;
+      }
+
+      main { max-width: 42rem; margin: 0 auto; }
+
+      header { margin-bottom: 2.5rem; }
+
+      h1 {
+        font-size: 2rem;
+        font-weight: 800;
+        letter-spacing: -0.02em;
+        margin: 0 0 0.25rem;
+      }
+
+      header p { margin: 0; color: var(--ink-faint); }
+
+      section {
+        background: var(--surface);
+        border: 2px solid var(--edge);
+        border-radius: 16px;
+        padding: 1.5rem 1.5rem 1.75rem;
+        margin-bottom: 1.5rem;
+        box-shadow: 4px 4px 0 var(--edge);
+      }
+
+      h2 {
+        font-size: 1.3rem;
+        font-weight: 700;
+        margin: 0 0 1rem;
+        letter-spacing: -0.01em;
+      }
+
+      h3 {
+        font-size: 1rem;
+        font-weight: 700;
+        margin: 1.75rem 0 0.4rem;
+      }
+
+      h3:first-of-type { margin-top: 0; }
+
+      p { margin: 0 0 0.9rem; color: var(--ink-soft); }
+
+      ul { margin: 0 0 0.9rem; padding-left: 1.2rem; color: var(--ink-soft); }
+      li { margin-bottom: 0.3rem; }
+
+      address {
+        font-style: normal;
+        color: var(--ink-soft);
+        margin-bottom: 0.9rem;
+      }
+
+      a { color: var(--ink); text-decoration-thickness: 2px; text-underline-offset: 3px; }
+
+      hr { border: 0; border-top: 1px solid var(--rule); margin: 1.5rem 0; }
+
+      footer {
+        max-width: 42rem;
+        margin: 2.5rem auto 0;
+        color: var(--ink-faint);
+        font-size: 0.875rem;
+      }
+    </style>
+  </head>
+
+  <body>
+    <main>
+      <header>
+        <h1>Tischrunde</h1>
+        <p>Datenschutzerklärung und Impressum</p>
+      </header>
+
+      <section>
+        <h2>Datenschutzerklärung</h2>
+
+        <h3>Kurz gesagt</h3>
+        <p>
+          Tischrunde erhebt keine personenbezogenen Daten. Die App hat keine
+          Benutzerkonten, keine Werbung und keine Analysewerkzeuge. Gespielt
+          wird ohne Internetverbindung. Eine einzige Verbindung stellt die App
+          her: die Prüfung auf eine neue Fassung beim Start — dazu unten mehr.
+        </p>
+
+        <h3>Verantwortlicher</h3>
+        <address>
+          Adriano Stöberl<br />
+          Untermarkt 3<br />
+          82481 Mittenwald, Deutschland<br />
+          E-Mail: <a href="mailto:85POINT2@gmail.com">85POINT2@gmail.com</a>
+        </address>
+
+        <h3>Was auf dem Gerät gespeichert wird</h3>
+        <p>
+          Damit die App beim nächsten Start dort weitermacht, wo du aufgehört
+          hast, legt sie zwei Dinge im Speicher des Geräts ab:
+        </p>
+        <ul>
+          <li>
+            <strong>Einstellungen</strong> — Darstellung (hell, dunkel,
+            automatisch), Vibration, Ton.
+          </li>
+          <li>
+            <strong>Statistik</strong> — Anzahl der Partien, Siege und der beste
+            Wert je Spiel.
+          </li>
+          <li>
+            <strong>Zuletzt eingegebene Spielernamen</strong> und die
+            Spielerzahl, damit die nächste Runde schneller startet.
+          </li>
+        </ul>
+        <p>
+          Diese Angaben bleiben auf dem Gerät und werden nirgendwohin übertragen.
+          Wer die App löscht, löscht damit auch diese Daten.
+        </p>
+
+        <h3>Die einzige Verbindung: Aktualisierungen</h3>
+        <p>
+          Beim Start fragt die App bei <strong>u.expo.dev</strong> nach, ob eine
+          neue Fassung bereitsteht. Dahinter steht Expo Application Services,
+          der übliche Weg, Verbesserungen an Expo-Apps auszuliefern, ohne dass
+          du eine neue Version aus dem Store laden musst.
+        </p>
+        <p>Dabei werden übertragen:</p>
+        <ul>
+          <li>das Betriebssystem des Geräts und die Fassung der App,</li>
+          <li>die Projektkennung dieser App,</li>
+          <li>
+            eine zufällig erzeugte Installationskennung. Sie entsteht beim
+            ersten Start, bleibt für diese Installation gleich und verschwindet,
+            wenn du die App löschst. Sie enthält nichts über dich und ist mit
+            keinem Konto verknüpft.
+          </li>
+          <li>
+            im Fehlerfall die Meldung des letzten Absturzes, gekürzt auf 1024
+            Zeichen — damit sich Fehler beheben lassen. Enthält keine
+            Spielstände und keine Namen.
+          </li>
+        </ul>
+        <p>
+          Empfänger ist Expo. Wie bei jedem Aufruf einer Internetadresse ist
+          technisch bedingt die IP-Adresse beteiligt. Datenschutzerklärung von
+          Expo: <a href="https://expo.dev/privacy">expo.dev/privacy</a>
+        </p>
+        <p>
+          Alles andere in der App läuft ohne Verbindung. Es gibt keine Werbung,
+          keine Analyse und keinen eigenen Server.
+        </p>
+
+        <h3>Berechtigungen</h3>
+        <p>
+          Die App fordert keine Berechtigungen an. Auf Android nutzt sie den
+          Vibrationsmotor; das gilt nicht als schutzwürdige Berechtigung und
+          lässt sich in den Einstellungen der App abschalten.
+        </p>
+
+        <h3>Kinder</h3>
+        <p>
+          Die App richtet sich an alle Altersgruppen. Sie enthält kein
+          Glücksspiel, keine Einsätze, keine Chatfunktion und keine Verweise nach
+          außen. Da keine Daten erhoben werden, werden auch keine Daten von
+          Kindern erhoben.
+        </p>
+
+        <h3>Bezug über App Store und Google Play</h3>
+        <p>
+          Der Download läuft über Apple bzw. Google. Diese Unternehmen
+          verarbeiten dabei eigene Daten (etwa Kaufverlauf, Gerätekennung,
+          Absturzberichte) und sind dafür selbst verantwortlich. Es gelten deren
+          Datenschutzbestimmungen:
+        </p>
+        <ul>
+          <li><a href="https://www.apple.com/legal/privacy/">Apple</a></li>
+          <li><a href="https://policies.google.com/privacy">Google</a></li>
+        </ul>
+
+        <h3>Deine Rechte</h3>
+        <p>
+          Nach der Datenschutz-Grundverordnung hast du das Recht auf Auskunft,
+          Berichtigung, Löschung, Einschränkung der Verarbeitung,
+          Datenübertragbarkeit und Widerspruch, außerdem das Recht, dich bei
+          einer Aufsichtsbehörde zu beschweren. Da wir keine Daten über dich
+          verarbeiten, gibt es allerdings nichts, worauf sich diese Rechte
+          richten könnten. Bei Fragen erreichst du uns unter der oben genannten
+          Adresse.
+        </p>
+
+        <h3>Änderungen</h3>
+        <p>
+          Sollte die App später Funktionen bekommen, die Daten übertragen — etwa
+          einen Online-Modus —, wird diese Erklärung vorher angepasst und die
+          Änderung in der App angekündigt.
+        </p>
+
+        <hr />
+        <p>Stand: 8. September 2026</p>
+      </section>
+
+      <section>
+        <h2>Impressum</h2>
+
+        <h3>Angaben gemäß § 5 DDG</h3>
+        <address>
+          Adriano Stöberl<br />
+          Untermarkt 3<br />
+          82481 Mittenwald<br />
+          Deutschland
+        </address>
+
+        <h3>Kontakt</h3>
+        <p>E-Mail: <a href="mailto:85POINT2@gmail.com">85POINT2@gmail.com</a></p>
+
+        <h3>Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV</h3>
+        <p>Adriano Stöberl, Anschrift wie oben</p>
+
+        <h3>EU-Streitschlichtung</h3>
+        <p>
+          Wir sind nicht bereit und nicht verpflichtet, an
+          Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle
+          teilzunehmen.
+        </p>
+      </section>
+
+      <footer>
+        Tischrunde — Knobeln, Dame, Mühle, Domino, Mau-Mau und Schwimmen.
+      </footer>
+    </main>
+  </body>
+</html>
