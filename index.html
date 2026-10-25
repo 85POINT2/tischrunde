@@ -109,12 +109,19 @@
       <section>
         <h2>Datenschutzerklärung</h2>
 
+        <p><em>Stand: 25. Oktober 2026</em></p>
+
         <h3>Kurz gesagt</h3>
         <p>
-          Tischrunde erhebt keine personenbezogenen Daten. Die App hat keine
-          Benutzerkonten, keine Werbung, keine Analysewerkzeuge und keine
-          Netzwerkverbindung. Sie stellt zu keinem Zeitpunkt eine Verbindung ins
-          Internet her — weder zu uns noch zu Dritten.
+          Tischrunde lässt sich vollständig ohne Internet spielen. Alle Spiele
+          gegen den Computer oder gegen Mitspieler am selben Gerät kommen ohne
+          Konto und ohne Verbindung aus.
+        </p>
+        <p>
+          Nur wer <strong>online gegen andere spielt</strong>, legt dafür ein
+          Profil auf unserem Server an. Dieses Profil kennt keinen Namen, keine
+          E-Mail-Adresse und kein Passwort. Es gibt keine Werbung, keine
+          Analysewerkzeuge und kein Tracking.
         </p>
 
         <h3>Verantwortlicher</h3>
@@ -125,85 +132,179 @@
           E-Mail: <a href="mailto:85POINT2@gmail.com">85POINT2@gmail.com</a>
         </address>
 
-        <h3>Was auf dem Gerät gespeichert wird</h3>
-        <p>
-          Damit die App beim nächsten Start dort weitermacht, wo du aufgehört
-          hast, legt sie zwei Dinge im Speicher des Geräts ab:
-        </p>
+        <h3>Was auf dem Gerät bleibt</h3>
         <ul>
           <li>
             <strong>Einstellungen</strong> — Darstellung (hell, dunkel,
             automatisch), Vibration, Ton.
           </li>
           <li>
-            <strong>Statistik</strong> — Anzahl der Partien, Siege und der beste
-            Wert je Spiel.
+            <strong>Statistik</strong> — Partien, Siege, bester Wert und
+            Spielweise je Spiel.
+          </li>
+          <li>
+            <strong>Münzen, freigeschaltete Gegenstände und Erfolge.</strong>
           </li>
           <li>
             <strong>Zuletzt eingegebene Spielernamen</strong> und die
-            Spielerzahl, damit die nächste Runde schneller startet.
+            Spielerzahl.
           </li>
         </ul>
         <p>
-          Diese Angaben bleiben auf dem Gerät und werden nirgendwohin übertragen.
-          Wer die App löscht, löscht damit auch diese Daten.
+          Diese Angaben verlassen das Gerät nicht. Wer die App löscht, löscht
+          sie mit.
         </p>
 
-        <h3>Keine Netzwerkverbindung</h3>
+        <h3>Der Online-Modus</h3>
         <p>
-          Die App ruft keine Internetadresse auf. Es gibt keinen eigenen Server,
-          keine Werbung, keine Analyse und keine Aktualisierung über das Netz.
-          Neue Fassungen kommen ausschließlich als reguläres Update über den
-          App Store.
+          Der Online-Modus ist freiwillig. Er beginnt erst, wenn du „Online"
+          wählst oder den Bildschirm „Online-Profil" öffnest.
+        </p>
+
+        <h4>Anmeldung</h4>
+        <p>
+          Es gibt zwei Wege, und beide kommen ohne Passwort und ohne
+          E-Mail-Adresse aus:
+        </p>
+        <ul>
+          <li>
+            <strong>Über Game Center.</strong> Apple stellt eine Spielerkennung
+            aus (<code>teamPlayerID</code>), die nur für die Apps dieses
+            Entwicklerkontos gilt, sowie eine Unterschrift, mit der unser Server
+            prüfen kann, dass die Kennung echt ist. Übertragen werden Kennung,
+            Anzeigename, die Unterschrift und ein Zeitstempel. Die Unterschrift
+            wird nur geprüft und nicht gespeichert.
+          </li>
+          <li>
+            <strong>Ohne Game Center.</strong> Das Gerät erzeugt beim ersten
+            Start eine Zufallszahl und benutzt sie als Kennung. Sie entsteht auf
+            dem Gerät und hängt an keinem Konto.
+          </li>
+        </ul>
+
+        <h4>Was auf dem Server gespeichert wird</h4>
+        <ul>
+          <li>eine interne Profilkennung — um Partien und Wertung zuzuordnen</li>
+          <li>Art der Anmeldung und die Kennung dazu — um dich wiederzuerkennen</li>
+          <li>
+            Anzeigename aus Game Center, falls vorhanden — damit dein Gegner
+            weiß, mit wem er spielt
+          </li>
+          <li>
+            Wertungszahl und Zahl gewerteter Partien je Spiel — für die
+            Gegnersuche und die Rangfolge
+          </li>
+          <li>
+            erstmals und zuletzt gesehen — um verwaiste Profile später aufräumen
+            zu können
+          </li>
+          <li>
+            laufende und beendete Partien: Stellung, Zugfolge, Ausgang — um die
+            Partie zu führen und zu werten
+          </li>
+          <li>
+            ein Zugangsschlüssel, ausschließlich als Prüfsumme (SHA-256) — damit
+            du dich nicht bei jedem Start neu anmelden musst; gilt 90 Tage
+          </li>
+        </ul>
+        <p>
+          Mehr nicht. Kein Geburtsdatum, keine Adresse, keine Kontaktdaten, kein
+          Standort, keine Werbekennung.
+        </p>
+
+        <h4>Rechtsgrundlage</h4>
+        <p>
+          Die Verarbeitung dient der Erfüllung des Nutzungsvertrags über den
+          Online-Modus — Artikel 6 Absatz 1 Buchstabe b DSGVO. Ohne Profil ist
+          eine Partie gegen einen anderen Menschen nicht möglich.
+        </p>
+
+        <h4>Wo die Daten liegen</h4>
+        <p>
+          Der Server läuft bei <strong>Fly.io, Inc.</strong>, 2261 Market Street
+          #4990, San Francisco, CA 94114, USA, im Rechenzentrum
+          <strong>Frankfurt am Main</strong>. Die Daten werden dort in
+          Deutschland gespeichert. Fly.io verarbeitet in unserem Auftrag; dabei
+          fallen technisch bedingt Verbindungsdaten einschließlich der
+          IP-Adresse an. Wir werten sie nicht aus und speichern sie nicht in
+          unserer eigenen Datenbank.
+        </p>
+
+        <h4>Wie lange</h4>
+        <ul>
+          <li><strong>Profil und Wertung:</strong> bis du sie löschst.</li>
+          <li>
+            <strong>Zugangsschlüssel:</strong> 90 Tage, danach automatisch
+            entfernt.
+          </li>
+          <li>
+            <strong>Beendete Partien:</strong> auf unbestimmte Zeit, da sie zur
+            Wertung gehören.
+          </li>
+        </ul>
+
+        <h4>Löschen</h4>
+        <p>
+          In der App unter <strong>Einstellungen → Online → Online-Profil →
+          Profil löschen</strong>. Gelöscht werden das Profil, alle
+          Wertungszahlen und alle Zugangsschlüssel, auch die auf anderen
+          Geräten. Eine Nachfrage bei uns ist dafür nicht nötig.
+        </p>
+        <p>
+          Deine Statistik, Münzen und freigeschalteten Gegenstände bleiben dabei
+          erhalten — die liegen auf dem Gerät und gehören nicht zum
+          Online-Profil.
+        </p>
+
+        <h3>Keine Werbung, keine Analyse, kein Tracking</h3>
+        <p>
+          Die App enthält keine Werbung, keine Analysewerkzeuge, keine
+          Werbekennung und keine Dienste Dritter, die Nutzungsverhalten
+          auswerten. Es werden keine Daten für Werbung verwendet und keine an
+          Dritte verkauft.
+        </p>
+        <p>
+          Die App lädt zur Laufzeit keinen Code und keine Inhalte nach. Jede
+          Änderung kommt als reguläres Update über den App Store.
         </p>
 
         <h3>Berechtigungen</h3>
         <p>
-          Die App fordert keine Berechtigungen an. Auf Android nutzt sie den
-          Vibrationsmotor; das gilt nicht als schutzwürdige Berechtigung und
-          lässt sich in den Einstellungen der App abschalten.
+          Die App fordert keine Berechtigungen an. Sie nutzt den
+          Vibrationsmotor; das lässt sich in den Einstellungen abschalten.
         </p>
 
         <h3>Kinder</h3>
         <p>
           Die App richtet sich an alle Altersgruppen. Sie enthält kein
-          Glücksspiel, keine Einsätze, keine Chatfunktion und keine Verweise nach
-          außen. Da keine Daten erhoben werden, werden auch keine Daten von
-          Kindern erhoben.
+          Glücksspiel, keine Einsätze und <strong>keine Chatfunktion</strong> —
+          im Online-Modus werden ausschließlich Spielzüge übertragen, keine
+          freien Texte. Angezeigt wird allein der Anzeigename aus Game Center,
+          den Apple selbst prüft.
         </p>
 
-        <h3>Bezug über App Store und Google Play</h3>
+        <h3>Bezug über den App Store</h3>
         <p>
-          Der Download läuft über Apple bzw. Google. Diese Unternehmen
-          verarbeiten dabei eigene Daten (etwa Kaufverlauf, Gerätekennung,
-          Absturzberichte) und sind dafür selbst verantwortlich. Es gelten deren
-          Datenschutzbestimmungen:
+          Der Download läuft über Apple. Apple verarbeitet dabei eigene Daten
+          (etwa Kaufverlauf, Gerätekennung, Absturzberichte) und ist dafür
+          selbst verantwortlich:
+          <a href="https://www.apple.com/legal/privacy/">apple.com/legal/privacy</a>
         </p>
-        <ul>
-          <li><a href="https://www.apple.com/legal/privacy/">Apple</a></li>
-          <li><a href="https://policies.google.com/privacy">Google</a></li>
-        </ul>
 
         <h3>Deine Rechte</h3>
         <p>
           Nach der Datenschutz-Grundverordnung hast du das Recht auf Auskunft,
           Berichtigung, Löschung, Einschränkung der Verarbeitung,
           Datenübertragbarkeit und Widerspruch, außerdem das Recht, dich bei
-          einer Aufsichtsbehörde zu beschweren. Da wir keine Daten über dich
-          verarbeiten, gibt es allerdings nichts, worauf sich diese Rechte
-          richten könnten. Bei Fragen erreichst du uns unter der oben genannten
-          Adresse.
+          einer Aufsichtsbehörde zu beschweren. Bei Fragen erreichst du uns
+          unter der oben genannten Adresse.
         </p>
 
         <h3>Änderungen</h3>
         <p>
-          Sollte die App später Funktionen bekommen, die Daten übertragen — etwa
-          einen Online-Modus —, wird diese Erklärung vorher angepasst und die
-          Änderung in der App angekündigt.
+          Bekommt die App Funktionen, die weitere Daten übertragen, wird diese
+          Erklärung vorher angepasst.
         </p>
-
-        <hr />
-        <p>Stand: 18. September 2026</p>
       </section>
 
       <section>
